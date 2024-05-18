@@ -42,3 +42,15 @@ Condition : If a customer have more than 100 points then he is Gold otherwise Si
 let points = 110;
 let type = points > 100 ? 'Gold' : 'Silver';
 console.log(type);
+
+//Swapping the value
+let a = 'red'
+let b = 'blue'
+let temp;
+console.log(a)
+console.log(b)
+temp = a
+a = b
+b = temp
+
+console.log('After Swap ', a, b)
